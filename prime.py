@@ -7,13 +7,21 @@ def main():
   x = input("Enter a number: ")
   topNumber = x+1
   isPrime = [True]*topNumber
+  count = 0
 
   for i in range(2,topNumber):
     if isPrime[i]:
       for j in range(i**2,topNumber,i):
         isPrime[j] = False
 
-      print i,
+      count = count +1
+      if count == 10:
+        print str(i)
+        count = 0
+      else:
+        print str(i) + "\t",
+
+  print
 
 main()
 
