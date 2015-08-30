@@ -1,3 +1,3 @@
 #Prime
-#This progrma will print out all the prime numbers upto a given number.
+#This program will print out all the prime numbers up to a given number.
 
