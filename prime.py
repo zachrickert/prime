@@ -13,7 +13,7 @@ def main():
       for j in range(i**2,topNumber,i):
         isPrime[j] = False
 
-      print i
+      print i,
 
 main()
 
