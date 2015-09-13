@@ -5,7 +5,7 @@ def main():
   print("This program will find all the primes up to a given number.")
 
   x = input("Enter a number: ")
-  topNumber = x+1
+  topNumber = int(x)+1
   isPrime = [True]*topNumber
   count = 0
 
@@ -16,12 +16,12 @@ def main():
 
       count = count +1
       if count == 10:
-        print str(i)
+        print (i)
         count = 0
       else:
-        print str(i) + "\t",
+        print (str(i) + "\t", end="")
 
-  print
+  print()
 
 main()
 
